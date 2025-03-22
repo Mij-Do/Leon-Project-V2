@@ -1,0 +1,36 @@
+nav {
+    // background-color: #10d0bc;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    // logo styles
+    .logo {
+        img {
+            width: 40%;
+        }
+    }
+    // nav items styles
+    .nav-items {
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            
+            li a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #10d0bc;
+                &:hover {
+                    color: #35fde9;
+                }
+            }
+        }
+    }
+}
