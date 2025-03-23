@@ -1,12 +1,10 @@
 nav {
-    // background-color: #10d0bc;
     width: 100%;
     padding: 10px 0;
     border-radius: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     // logo styles
     .logo {
         img {
@@ -20,7 +18,6 @@ nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            flex-wrap: wrap;
             gap: 20px;
             
             li a {
@@ -31,6 +28,16 @@ nav {
                     color: #35fde9;
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    nav {
+        flex-wrap: wrap;
+        text-align: center;
+        ul {
+            flex-wrap: wrap;
         }
     }
 }
