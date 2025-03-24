@@ -1,14 +1,14 @@
 nav {
     width: 100%;
     padding: 10px 0;
-    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     // logo styles
     .logo {
         img {
-            width: 40%;
+            width: 100px;
+            cursor: pointer;
         }
     }
     // nav items styles
@@ -35,8 +35,10 @@ nav {
 @media (max-width: 767px) {
     nav {
         flex-wrap: wrap;
+        justify-content: center;
         text-align: center;
         ul {
+            flex-direction: column;
             flex-wrap: wrap;
         }
     }

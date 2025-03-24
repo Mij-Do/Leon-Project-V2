@@ -1,0 +1,53 @@
+.landing-image {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./../../assets/landing image.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+    h1 {
+        text-transform: uppercase;
+        color: #10d0bc;
+    }
+    
+    h3 {
+        text-transform: capitalize;
+    }
+}
+
+.icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    .font-awesome {
+        color: #10d0bc;
+    } 
+}
+
+.card {
+    background-color: #dddddd;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
