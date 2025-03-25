@@ -17,11 +17,12 @@
     
     h3 {
         text-transform: capitalize;
+        text-align: center;
     }
 }
 
 .icons {
-    margin-top: 30px;
+    margin: 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +40,7 @@
     transition: 0.5s;
     cursor: pointer;
     &:hover {
-        transform: scale(1.1);
+        transform: scale(1.02);
     }
 }
 
