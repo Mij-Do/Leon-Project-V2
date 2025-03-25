@@ -1,0 +1,38 @@
+.cards {
+    background-color: #ddd;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 20px 2px;
+    .port-card {
+        text-align: center;
+        font-weight: bold;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        img {
+            width: 100%;
+            border-radius: 10px;
+            transition: 0.5;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        h3 {
+            margin: 5px 0;
+            color: #10d0bc;
+        }
+        p {
+            margin-bottom: 5px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .spicial-header {
+        h1 {
+            font-size: 4rem;
+        }
+    }
+}
