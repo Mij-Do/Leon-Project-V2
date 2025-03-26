@@ -1,0 +1,29 @@
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .image {
+        width: 50%;
+        img {
+            width: 50%;
+            border-radius: 10px;
+            transition: 0.5s;
+            &:hover {
+                transform: rotate(20deg);
+            }
+        }
+    }
+    .content {
+        width: 40%;
+        h3 {
+            margin-bottom: 50px;
+        }
+        hr {
+            width: 50%;
+            border: 1px solid #10d0bc;
+        }
+        p {
+            margin-top: 50px;
+        }
+    }
+}
