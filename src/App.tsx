@@ -8,10 +8,10 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-
+  const navItems = ['services', 'portfolio', 'about', 'contact'];
   return (
     <>
-      <Navbar />
+      <Navbar navItems={navItems}/>
       <Image />
       <Services />
       <Portfolio />

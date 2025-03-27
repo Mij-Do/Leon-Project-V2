@@ -6,7 +6,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
     return (
-        <section>
+        <section id='contact'>
             <div className='spicial-header'>
                 <h1>Contact-Us</h1>
                 <p>we are born to create</p>

@@ -1,7 +1,11 @@
 import './index.scss';
 import logo from './../../assets/logo.png';
 
-function Navbar () {
+interface Iprop {
+    navItems: string[];
+}
+
+function Navbar ({navItems}: Iprop) {
     return (
         <>
             <nav>
@@ -10,10 +14,9 @@ function Navbar () {
                 </div>
                 <div className='nav-items'>
                     <ul>
-                        <li><a href="">services</a></li>
-                        <li><a href="">portfolio</a></li>
-                        <li><a href="">about</a></li>
-                        <li><a href="">contact</a></li>
+                        {navItems.map(item => {
+                            return <li><a href="">{item}</a></li>
+                        })}
                     </ul>
                 </div>
             </nav>
