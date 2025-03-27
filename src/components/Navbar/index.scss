@@ -4,6 +4,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #2c4755;
     // logo styles
     .logo {
         img {
@@ -23,9 +24,9 @@ nav {
             li a {
                 text-decoration: none;
                 text-transform: uppercase;
-                color: #10d0bc;
+                color: white;
                 &:hover {
-                    color: #35fde9;
+                    color: #10d0bc;
                 }
             }
         }

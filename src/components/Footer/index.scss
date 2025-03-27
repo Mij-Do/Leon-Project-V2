@@ -1,0 +1,10 @@
+footer {
+    background-color: #2c4755;
+    padding: 40px 0;
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+    div span:not(:nth-child(1)) {
+        color: #10d0bc;
+    }
+}
