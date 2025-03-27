@@ -1,54 +1,40 @@
-# React + TypeScript + Vite
+📌 Leon Project V2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔹 نبذة عن المشروع:
+Leon Project V2 هو مشروع واجهة مستخدم تم تطويره باستخدام React و TypeScript مع أداة Vite للبناء. يهدف المشروع إلى تقديم تجربة تصفح سلسة وأداء عالي مع تصميم عصري ومتجاوب.
 
-Currently, two official plugins are available:
+🔹 التقنيات المستخدمة:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React.js ⚛️
 
-## Expanding the ESLint configuration
+TypeScript 🟦
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Vite ⚡
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Scss 🎨
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🔹 مميزات المشروع:
+✔️ أداء عالي بفضل Vite
+✔️ تنظيم جيد للكود باستخدام TypeScript
+✔️ تصميم متجاوب يدعم جميع الأجهزة
+✔️ كتابة كود نظيف وقابل للتطوير
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+🔹 طريقة تشغيل المشروع:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+قم باستنساخ المستودع:
+
+git clone https://github.com/Mij-Do/Leon-Project-V2.git
+
+انتقل إلى المجلد:
+
+cd Leon-Project-V2
+
+ثبّت الحزم المطلوبة:
+
+npm install
+
+شغّل المشروع محليًا:
+
+npm run dev
+
+🔹 رابط المعاينة:Leon Project V2 على Vercel
