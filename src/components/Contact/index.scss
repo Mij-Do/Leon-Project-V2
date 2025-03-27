@@ -1,0 +1,32 @@
+.contact {
+    text-align: center;
+    h2 {
+        font-size: 30px;
+        margin: 60px 0 20px 0;
+    }
+    a {
+        font-size: 20px;
+        color: #10d0bc;
+        cursor: pointer;
+        text-decoration: none;
+        transition: 0.5s;
+        &:hover {
+            text-decoration: underline;
+            color: #39ebd9;
+        }
+    }
+    .icons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .contact-icons {
+            cursor: pointer;
+            transition: 0.5s;
+            font-size: 40px;
+            &:hover {
+                color: #10d0bc;
+                transform: rotate(360deg);
+            }
+        }
+    }
+}

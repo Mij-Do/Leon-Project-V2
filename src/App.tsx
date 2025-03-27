@@ -4,6 +4,7 @@ import Image from './components/Image'
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Portfolio />
       <About />
+      <Contact />
     </>
   )
 }

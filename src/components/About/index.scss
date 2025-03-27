@@ -9,7 +9,7 @@
             border-radius: 10px;
             transition: 0.5s;
             &:hover {
-                transform: rotate(20deg);
+                transform: rotate(15deg);
             }
         }
     }
@@ -24,6 +24,26 @@
         }
         p {
             margin-top: 50px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+        .image {
+            margin-bottom: 50px;
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .content {
+            width: 100%;
+            hr {
+                width: 100%;
+            }
         }
     }
 }
