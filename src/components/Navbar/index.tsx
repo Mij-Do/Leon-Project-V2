@@ -1,11 +1,15 @@
 import './index.scss';
 import logo from './../../assets/logo.png';
-
-interface Iprop {
+interface IProps {
     navItems: string[];
 }
 
-function Navbar ({navItems}: Iprop) {
+
+function Navbar ({navItems}: IProps) {
+    const scrollToSection = (id: string) => {
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    };
+
     return (
         <>
             <nav>
@@ -15,7 +19,7 @@ function Navbar ({navItems}: Iprop) {
                 <div className='nav-items'>
                     <ul>
                         {navItems.map(item => {
-                            return <li><a href="">{item}</a></li>
+                            return <li key={item} onClick={() => scrollToSection(item)}><span key={item}>{item}</span></li>
                         })}
                     </ul>
                 </div>

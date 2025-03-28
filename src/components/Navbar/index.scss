@@ -21,8 +21,8 @@ nav {
             align-items: center;
             gap: 20px;
             
-            li a {
-                text-decoration: none;
+            li span {
+                cursor: pointer;
                 text-transform: uppercase;
                 color: white;
                 &:hover {

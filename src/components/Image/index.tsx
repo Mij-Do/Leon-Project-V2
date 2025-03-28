@@ -8,7 +8,7 @@ import { faGlobeAsia } from "@fortawesome/free-solid-svg-icons";
 function Image () {
     return (
         <>
-            <section>
+            <section id='image'>
                 <div className='landing-image'>
                     <h1>Hello there</h1>
                     <h3>We are Leon - Super Creative & Minimal Agancy Web Template</h3>

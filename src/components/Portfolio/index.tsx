@@ -6,7 +6,7 @@ import port3 from './../../assets/port-img3.jpg';
 const Portfolio = () => {
     return (
         <>
-            <section>
+            <section id='portfolio'>
                 <div className='spicial-header'>
                     <h1>portflio</h1>
                     <p>If you do it right, it will last forever.</p>

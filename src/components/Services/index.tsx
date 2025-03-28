@@ -7,11 +7,10 @@ import { faRobot } from "@fortawesome/free-solid-svg-icons";
 import { faArchive } from "@fortawesome/free-solid-svg-icons";
 import services from './../../assets/services-img.jpg';
 
-
 const Services = () => {
     return (
         <>
-            <section>
+            <section id='services'>
                 <div className='spicial-header'>
                     <h1>services</h1>
                     <p>don't be busy, be prodactive</p>

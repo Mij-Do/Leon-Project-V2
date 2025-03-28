@@ -4,7 +4,7 @@ import aboutImage from './../../assets/about-img.jpg'
 const About = () => {
     return (
         <>
-            <section>
+            <section id='about'>
                 <div className='spicial-header'>
                     <h1>about</h1>
                     <p>less is more work</p>
