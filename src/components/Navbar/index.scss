@@ -35,12 +35,16 @@ nav {
 
 @media (max-width: 767px) {
     nav {
-        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         text-align: center;
+        .logo {
+            margin: 10px auto;
+        }
         ul {
             flex-direction: column;
-            flex-wrap: wrap;
         }
     }
 }
